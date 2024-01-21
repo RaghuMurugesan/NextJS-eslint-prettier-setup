@@ -1,0 +1,25 @@
+# Build artifacts
+.next/
+_next/
+dist/
+node_modules/
+target/
+compiled/
+
+lerna.json
+test-timings.json
+pnpm-lock.yaml
+
+
+.github/actions/next-stats-action/.work
+
+test/**/out/**
+
+bench/nested-deps/pages/**/*
+bench/nested-deps/components/**/*
+
+src/app/*.css
+src/lib/database.types.ts
+
+tsconfig.json
+.eslintrc.json
