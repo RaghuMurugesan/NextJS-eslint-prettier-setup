@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS, Eslint, and Prettier Setup Guide
 
-## Getting Started
+While [NextJS's documentation](https://nextjs.org/docs/app/building-your-application/configuring/eslint) does mention Eslint and Prettier, it doesn't provide a thorough guide for a fully operational setup. This comprehensive repository is created to fill this void by presenting an easily followable guide. 
 
-First, run the development server:
+## Utilizing this Repository
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To comprehend Eslint and Prettier setup, you may trace each commit. The sequence indicating their respective setup is listed below:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Initial creation via Create Next App
+2. Turn on the Eslint strict mode.
+3. Add eslint:recommended.
+4. Set up [lint-staged](https://github.com/okonet/lint-staged) and [husky](https://typicode.github.io/husky/#/) precommit hook.
+5. Addition of prettier configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is a [Next.js](https://nextjs.org/) initiative created with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
